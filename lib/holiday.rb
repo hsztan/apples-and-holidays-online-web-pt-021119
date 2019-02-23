@@ -22,7 +22,9 @@ end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
   holiday_hash.each do |key, value|
-    binding.pry
+    key.each do |holiday, supplies|
+      
+    end
   end
 end
 
